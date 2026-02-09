@@ -5,6 +5,7 @@ This directory contains updated instructions and supplemental information for th
 ## Supplemental Instructions
 
 - [Module 4: Create Dataset and Load Data](./module-04.md) - Instructions for BigQuery dataset in the Bangkok region and load our raw data.
+- [Module 7: Handling the Product Column](./module-07.md) - Prompt for 'Clean up the product name step'
 
 ## Settings
 

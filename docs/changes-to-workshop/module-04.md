@@ -31,7 +31,7 @@ We will use SQL to load the tables.
 2. Copy and paste the following SQL commands:
 
 ```sql
--- 1. Load the main product table (Autodetect Schema)
+-- 1. Load the main product table
 LOAD DATA OVERWRITE bq_data_preparation_demo.stg_product
 FROM FILES (
   format = 'CSV',
@@ -39,7 +39,7 @@ FROM FILES (
   skip_leading_rows = 1
 );
 
--- 2. Load the extended attributes table (Autodetect Schema)
+-- 2. Load the extended attributes table
 LOAD DATA OVERWRITE bq_data_preparation_demo.stg_extended_product
 FROM FILES (
   format = 'CSV',
