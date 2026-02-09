@@ -1,4 +1,7 @@
 ## Step 7: Handling the Product Column
 
-Prompt for 'Clean up the product name step' 2: 
+Prompt for 'Clean up the product name' step 2: 
+
+```text
 Removes the substring after the pipe symbol ‘|’ from the Product column.
+```
